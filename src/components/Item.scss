@@ -1,0 +1,106 @@
+.single-item {
+  display: flex;
+}
+
+.single-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-gap: 20px;
+}
+
+.images {
+  flex-direction: column;
+  display: flex;
+}
+
+.item-rest {
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+}
+
+.item-rest:hover {
+  opacity: 0.3;
+  padding: 5px;
+}
+
+.sizeDiv {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.attributeNameDiv {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.attributeName {
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.Capacity,
+.Size,
+.Touch.ID.in.keyboard,
+.With.USB.ports {
+
+  border: 1px solid black;
+  width: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  justify-content: center;
+  padding: 3px;
+}
+
+.attributeColor {
+  border: 1px solid black;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  justify-content: center;
+  padding: 3px;
+}
+
+.Capacity:hover,
+.Touch.ID.in.keyboard:hover,
+.Size:hover,
+.With.USB.ports:hover {
+  background-color: gray;
+  color: white;
+}
+
+.attributeColor:hover {
+  opacity: 0.3;
+}
+
+.elementPrice {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.buttonDiv {
+  margin-top: 20px;
+}
+
+.buttonDiv button {
+  padding: 10px;
+  width: 250px;
+  background-color: #00E676;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.descriptionDiv {
+  margin-top: 30px;
+  width: 250px;
+}
+.attribute-item{
+  display: flex;
+  margin-top: 10px;
+}

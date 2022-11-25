@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+
+  .div-icons {
+    margin-right: 20px;
+    margin-left: auto;
+  }
+
+  .dropdown_menu {
+    margin-left: 20px;
+    margin-right: 30px;
+
+    .ul-currency {
+      list-style: none;
+      display: none;
+      margin-right: 20px;
+    }
+  }
+
+
+  .icons-item:hover .dropdown_menu .ul-currency {
+    display: block;
+    position: absolute;
+  }
+
+
+  .icons-item:hover .dropdown_menu .ul-currency .currency-item {
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    width: 80px;
+    color: #404040;
+  }
+
+  .icons-item:hover .dropdown_menu .ul-currency .currency-item:hover {
+    background-color: #C8C8C8;
+  }
+
+  .ul-currency .currency-item {
+    text-align: center;
+  }
+
+  .icons-item {
+    margin: 0 1rem;
+  }
+
+  .icons-item:hover .dropdown_menu {
+    display: block;
+  }
+
+  .ul {
+    display: flex;
+    margin: 25px;
+    list-style: none;
+
+    .ul-item {
+      margin: 0 1rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      text-transform: uppercase;
+    }
+
+    a:hover {
+      color: #00E676;
+      border-bottom: 2px solid #00E676;
+      padding-bottom: 10px
+    }
+  }
+
+  .icons {
+    display: flex;
+    margin: 25px;
+    list-style: none;
+
+    .ul-item {
+      margin: 0 2rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  .number-of-cart-item{
+    color: white;
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+  }
+  .cart-content::-webkit-scrollbar { 
+    display: none;
+  }
+  .cart-content{
+    border: 1px solid black;
+    border-radius: 5px;
+    max-height: 310px;
+    overflow-y: scroll;
+    width: 250px;
+    display: none;
+  }
+
+  .ItemName{
+    font-size: 15px;
+  }
+  .BrandName{
+    font-size: 12px;
+  }
+  .priceItem{
+      font-size: 14px;
+      font-weight: bold;
+  }
+  .totalPrice{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .displayItem{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 10px;
+  }
+  .attributeItemDiv{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+  .galleryItemDiv{
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+      gap: 20px
+  }
+  .close{
+      position:relative;
+      top:-5px;
+      right: -220px;
+      height:20px;
+  }
+
+  .buttonsCart{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .viewBagBtn{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    width: 250px;
+    margin-bottom: 20px;
+    color: black;
+    background: 	white;
+    border: 1px solid black;
+    text-transform: uppercase;
+  }
+  .checkOutBtn{
+    margin-top: 10px;
+    padding: 10px;
+    background: 	lightgreen;
+    border: none;
+    width: 250px;
+    margin-bottom: 20px;
+    color: white;
+    text-transform: uppercase;
+  }
+}

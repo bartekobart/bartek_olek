@@ -1,0 +1,22 @@
+.modal{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  background: lightgreen;
+  border-radius: 5px;
+  padding: 40px;
+}
+.close {
+  position:absolute;
+  top:0;
+  right:0;
+  padding-right: 10px;
+  font-size: 30px;
+}

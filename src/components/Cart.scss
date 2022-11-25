@@ -1,0 +1,89 @@
+.title-cart{
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+.brand-item{
+  font-size: 20px;
+}
+
+.price-item{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.display-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px solid gray;
+  padding: 10px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.attribute-item-div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.gallery-item-div{
+  padding: 10px;
+  height: 300px;
+  width: 250px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons-add-remove-item{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 50px; 
+  margin-right: 20px;
+}
+
+.plusItem, .minusItem{
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.howMany{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.summary{
+  border-top: 1px solid gray;
+  margin-left: 10px;
+}
+.summary, .tax, .total, .quantity{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.order-button{
+  margin-top: 10px;
+  padding: 10px;
+  background: 	lightgreen;
+  border: none;
+  width: 250px;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+.emptyCartContent{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
